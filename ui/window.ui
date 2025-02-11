@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>771</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0" colspan="2">
+      <widget class="QLabel" name="label">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>BIBLIOTECA</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0" colspan="2">
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QWidget" name="widget" native="true">
+           <widget class="QFrame" name="frame">
+            <property name="geometry">
+             <rect>
+              <x>9</x>
+              <y>10</y>
+              <width>231</width>
+              <height>431</height>
+             </rect>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <widget class="QPushButton" name="pushButton">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>17</y>
+               <width>141</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>LISTA LIVROS</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_2">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>70</y>
+               <width>141</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>INSERIR USERS</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_3">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>120</y>
+               <width>141</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>INSERIR LIVROS</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_4">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>170</y>
+               <width>141</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>LIVROS EMPRESTADOS</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_5">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>220</y>
+               <width>141</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>CARRINHO</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QFrame" name="frame_2">
+            <property name="geometry">
+             <rect>
+              <x>260</x>
+              <y>10</y>
+              <width>501</width>
+              <height>431</height>
+             </rect>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <widget class="QLineEdit" name="lineEdit">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>70</y>
+               <width>221</width>
+               <height>22</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEdit_2">
+             <property name="geometry">
+              <rect>
+               <x>32</x>
+               <y>150</y>
+               <width>221</width>
+               <height>22</height>
+              </rect>
+             </property>
+            </widget>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
